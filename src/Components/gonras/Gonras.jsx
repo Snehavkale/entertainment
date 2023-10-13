@@ -8,7 +8,7 @@ const Gonras = ({type}) => {
     console.log(gonras)
 
     async function fetchGonras() {
-        await axios.get(`https://api.themoviedb.org/3/genre/${type}list?api_key=b85cf7e63f70f1e2d712df5393ca05bd&language=en-US&with_genres=${genreforURL}`)
+        await axios.get(`https://api.themoviedb.org/3/genre/${type}/list?api_key=b85cf7e63f70f1e2d712df5393ca05bd&language=en-US`)
             .then((x) => setGonras(x.data.genres))
     }
 

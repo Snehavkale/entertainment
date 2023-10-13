@@ -43,7 +43,7 @@ const Movie = () => {
   return (
     <>
       <span className="pageTitle">Movies</span>
-      <Gonras type='movie'/>
+      {/* <Gonras type='movie'/> */}
       {
         loder ?
           <Box sx={{ display: 'flex', }}>

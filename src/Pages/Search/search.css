@@ -1,0 +1,21 @@
+
+
+.searchBox{
+    color: white;
+    flex: 1;
+}
+.searchBox label{
+    color: white;
+    font-size: larger;
+}
+
+.search {
+    display: flex;
+    margin: 15px 0;
+  }
+
+  .search2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
