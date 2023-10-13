@@ -1,0 +1,31 @@
+.Htitle {
+  background-color: #39445a;
+  width: 100%;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 1px 5px black;
+  text-transform: uppercase;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: white;
+  z-index: 100;
+}
+
+
+@media (min-width:500px) and (max-width:1000px) {
+  .Htitle{
+    padding-top: 15px;
+      font-size: 20px;
+  }  
+}
+
+@media (min-width:100px) and (max-width:500px) {
+  .Htitle{
+    padding-top: 15px;
+      font-size: 17px;
+  }
+}
