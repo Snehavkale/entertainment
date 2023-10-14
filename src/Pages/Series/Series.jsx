@@ -10,11 +10,11 @@ import BasicPagination from '../../Components/Pagination/Pagination';
 const Series = () => {
 
   const [data, setData] = useState([])
-  console.log(data)
+
   const [loder, setLoader] = useState(true)
   const [page, setPage] = useState(1)
   const [numofpages, setNumofPages] = useState()
-  console.log(data)
+
 
   async function featchMovie() {
     await axios.get(` https://api.themoviedb.org/3/discover/tv?api_key=b85cf7e63f70f1e2d712df5393ca05bd&language=en-US&page=${page}`)

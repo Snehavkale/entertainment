@@ -10,7 +10,7 @@ const Tranding = () => {
     const [data, setData] = useState([]);
     const[page, setPage]= useState(1)
     const [loder, setLoader] = useState(true)
-    console.log(data)
+  
 
     async function fetchTrending() {
         await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=b85cf7e63f70f1e2d712df5393ca05bd&language=en-US&page=${page}`
